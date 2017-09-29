@@ -1,0 +1,24 @@
+{
+	"extensions": ["ttf", "woff", "woff2"],
+	"map": {
+	  "node_modules/ionic-angular/fonts/ionicons.ttf": "assets/fonts/ionicons.ttf",
+	  "node_modules/ionic-angular/fonts/ionicons.woff": "assets/fonts/ionicons.woff",
+	  "node_modules/ionic-angular/fonts/ionicons.woff2": "assets/fonts/ionicons.woff2",
+	  "node_modules/ionic-angular/fonts/noto-sans-bold.ttf": "assets/fonts/noto-sans-bold.ttf",
+	  "node_modules/ionic-angular/fonts/noto-sans-bold.woff": "assets/fonts/noto-sans-bold.woff",
+	  "node_modules/ionic-angular/fonts/noto-sans-regular.ttf": "assets/fonts/noto-sans-regular.ttf",
+	  "node_modules/ionic-angular/fonts/noto-sans-regular.woff": "assets/fonts/noto-sans-regular.woff",
+	  "node_modules/ionic-angular/fonts/roboto-bold.ttf": "assets/fonts/roboto-bold.ttf",
+	  "node_modules/ionic-angular/fonts/roboto-bold.woff": "assets/fonts/roboto-bold.woff",
+	  "node_modules/ionic-angular/fonts/roboto-bold.woff2": "assets/fonts/roboto-bold.woff2",
+	  "node_modules/ionic-angular/fonts/roboto-light.ttf": "assets/fonts/roboto-light.ttf",
+	  "node_modules/ionic-angular/fonts/roboto-light.woff": "assets/fonts/roboto-light.woff",
+	  "node_modules/ionic-angular/fonts/roboto-light.woff2": "assets/fonts/roboto-light.woff2",
+	  "node_modules/ionic-angular/fonts/roboto-medium.ttf": "assets/fonts/roboto-medium.ttf",
+	  "node_modules/ionic-angular/fonts/roboto-medium.woff": "assets/fonts/roboto-medium.woff",
+	  "node_modules/ionic-angular/fonts/roboto-medium.woff2": "assets/fonts/roboto-medium.woff2",
+	  "node_modules/ionic-angular/fonts/roboto-regular.ttf": "assets/fonts/roboto-regular.ttf",
+	  "node_modules/ionic-angular/fonts/roboto-regular.woff": "assets/fonts/roboto-regular.woff",
+	  "node_modules/ionic-angular/fonts/roboto-regular.woff2": "assets/fonts/roboto-regular.woff2"
+	}
+}

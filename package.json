@@ -1,0 +1,31 @@
+{
+  "name": "ionic3effort",
+  "private": true,
+  "scripts": {
+    "start": "meteor run"
+  },
+  "dependencies": {
+    "@angular/common": "4.1.3",
+    "@angular/compiler": "4.1.3",
+    "@angular/compiler-cli": "4.1.3",
+    "@angular/core": "4.1.3",
+    "@angular/forms": "4.1.3",
+    "@angular/http": "4.1.3",
+    "@angular/platform-browser": "4.1.3",
+    "@angular/platform-browser-dynamic": "4.1.3",
+    "@ionic/storage": "2.0.1",
+    "babel-runtime": "^6.20.0",
+    "ionic-angular": "3.6.1",
+    "ionicons": "3.0.0",
+    "meteor-node-stubs": "~0.2.4",
+    "reify": "^0.12.3",
+    "rxjs": "5.4.0",
+    "sw-toolbox": "3.6.0",
+    "zone.js": "0.8.12"
+  },
+  "devDependencies": {
+    "@types/underscore": "^1.8.3",
+    "meteor-typings": "^1.4.1",
+    "typescript": "2.3.4"
+  }
+}
