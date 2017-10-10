@@ -1,3 +1,5 @@
+CORDOVA
+-------
 [meteor npm install -global typings]
 	can use typings command to install typings in root "/typings" folder in project
 	add:
@@ -16,6 +18,12 @@ Restart VSCode - can use the global objects as per cordova documentation,
 	e.g. StatusBar.styleDefault();
          navigator.splashscreen.hide();
 
+NOTE: meteor packages mobile-status-bar and launch-screen provide good defaults for both these plugins
+	e.g. when installed they set various preferences in the cordova config.xml file.
+	Can change plugin settings programatically (like above) or use mobile-config.js and set prefs there
+
+IONIC THEME
+-----------
 mys:fonts
 	the map in fonts.json needs to include "assets/": e.g. "assets/fonts/ionicons.ttf"
 	see variables.scss: $font-path: "../assets/fonts";
@@ -50,3 +58,16 @@ TO BUILD THE IONIC THEME:
 		@import "{}/node_modules/ionic-angular/fonts/roboto";
 5. main.scss
 	import variables.scss,  app.scss, and any individualt pages scss
+
+ANDROID
+-------
+installed latest Android Studio
+Had to install a particular version of JDK (9 didnt work): jdk1.8.0_144
+Had to manually add gradle path to path: C:\Program Files\Android\Android Studio\gradle\gradle-3.2\bin
+NEED TO CHECK IF ANDROID_HOME/JAVA_HOME env variables are necessary on Windows???
+
+list installed emulators
+	emulator -list-avds
+
+start emulator (the one without x86 does not work?)
+	emulator -avd Nexus_5X_API_26_x86
