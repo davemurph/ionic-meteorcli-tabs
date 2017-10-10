@@ -1,2 +1,2 @@
 # ionic-meteorcli-blank
-Ionic2 blank app using Meteor CLI build tools
+Ionic2 tabs starter app using Meteor CLI build tools
