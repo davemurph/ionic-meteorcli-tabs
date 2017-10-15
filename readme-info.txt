@@ -1,22 +1,25 @@
 CORDOVA
 -------
-[meteor npm install -global typings]
-	can use typings command to install typings in root "/typings" folder in project
-	add:
-		"files": ["typings/index.d.ts"],
-	to tsconfig.json
-
 Add cordova/meteor plugins: 
 	meteor add cordova:cordova-plugin-statusbar@2.2.3
 	meteor add cordova:cordova-plugin-splashscreen@4.0.1
 
 Add TS typings for the plugins:
-	typings install dt~cordova-plugin-statusbar --global
-	typings install dt~cordova-plugin-splashscreen --global
+	meteor npm install @types/cordova-plugin-statusbar --save-dev
+	meteor npm install @types/cordova-plugin-splashscreen --save-dev
+
+Add to "types" in compilerOptions.types intsconfig.json:
+	"types": [
+			"cordova-plugin-splashscreen",
+			"cordova-plugin-statusbar",
+			"meteor",
+			"underscore"
+		]
+	NOTE: shouldn't have to add these if added with npm, but won't build properly without it?
 
 Restart VSCode - can use the global objects as per cordova documentation,
 	e.g. StatusBar.styleDefault();
-         navigator.splashscreen.hide();
+		 navigator.splashscreen.hide();
 
 NOTE: meteor packages mobile-status-bar and launch-screen provide good defaults for both these plugins
 	e.g. when installed they set various preferences in the cordova config.xml file.

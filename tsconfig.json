@@ -17,13 +17,12 @@
 		"stripInternal": true,
 		"noImplicitAny": false,
 		"types": [
-			"meteor-typings",
-			"@types/underscore"
+			"cordova-plugin-splashscreen",
+			"cordova-plugin-statusbar",
+			"meteor",
+			"underscore"
 		]
 	},
-	"files": [
-		"typings/index.d.ts"
-	],
 	"include": [
 		"client/**/*.ts",
 		"server/**/*.ts",
